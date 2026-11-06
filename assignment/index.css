@@ -1,0 +1,118 @@
+
+/* INTRODUCTION SECTION */
+
+.intro-section {
+  
+    background-color: #ffffff;
+    min-height: 300px;
+    padding: 60px 20px;
+    border-bottom: 8px solid #999999;
+    
+}
+
+/* INTRODUCTION CONTENT */
+
+.intro-content {
+    max-width: auto;
+    margin: 40px 28% 0;
+}
+
+
+/* MAIN HEADING */
+
+.intro-content h1 {
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+
+
+/* PARAGRAPHS */
+
+.intro-content p {
+    font-size: 17px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    max-width: auto;
+    gap: 15%;
+}
+
+
+/* HIGHLIGHTED WORDS */
+
+.intro-content strong {
+    color: #009966;
+    font-weight: 700;
+}
+
+
+/* MAIN CONTENT SECTION */
+
+.content-section {
+    background-color: #666666;
+    min-height: 274px;
+    padding: 44px 20px;
+}
+
+
+/* WHITE CONTENT CARD */
+
+.content-card {
+    position: relative;
+    background-color: #ffffff;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 58px 15px 18px;
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.25);
+    
+}
+
+
+/* YELLOW HEADING */
+
+.content-card h2 {
+    position: absolute;
+    top: 5px;
+    left: -5px;
+
+    width: 300px;
+    background-color: #ffc800;
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+    font-weight: 700;
+
+    box-shadow: 0 5px 2px rgba(0, 0, 0, 0.15);
+}
+
+
+/* CARD PARAGRAPHS */
+
+.content-card p {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+
+/* MOBILE RESPONSIVENESS */
+
+@media (max-width: 600px) {
+
+    .content-section {
+        padding: 45px 20px;
+    }
+
+    .content-card {
+        width: 100%;
+        padding: 65px 15px 20px;
+    }
+
+    .content-card h2 {
+        width: 90%;
+        font-size: 14px;
+    }
+
+}
